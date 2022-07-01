@@ -23,13 +23,13 @@ class _MenoPaulState extends State<MenoPaul> {
   bool isGamer = false;
   String connectedGuy = "";
   List<MemopolUsers> listMemopolUsers = [];
-GameCommons myPerso = new GameCommons("myPseudo", 0,0) ;
+GameCommons myPerso = new GameCommons("xxxx", 0,0) ;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          ' 0701 17:00  TEST : LAMEMOPOLE ' + myPerso.myPseudo,
+          ' 0701 09:00  TEST : LAMEMOPOLE ' + myPerso.myPseudo,
           style: GoogleFonts.averageSans(fontSize: 18.0),
         ),
       ),
